@@ -4,7 +4,7 @@
 <body>
 	<h1>Spring MVC Hello World Example</h1>
         
-        <p>Este es un saludo: ${saludo[0]}</p>
+        <p>Este es un saludo: ${message}</p>
         
         <c:forEach var="listValue" items="${saludo}">
                 <li>${listValue}</li>
